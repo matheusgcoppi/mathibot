@@ -1,1 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%; 
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+.header-image {
+    height: 4.5rem;
+}
+
+.menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0 2rem
+}
+
+.main {
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#first-h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+#first-h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #ecd6c4;
+}
+
+#first-button {
+    background-color: #ecd6c4;
+    width: 11.25rem;
+    height: 4rem;
+    border: none;
+    box-shadow: 4px 5px  4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #2F2325;
+}
+
+#first-button:hover {
+    background-color: blue;
+}
+
+.main-image {
+    height: 26.875rem;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+#first-h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 3rem;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFF2EF;
+    margin-bottom: 1rem;
+}
+
+.second-section h3 p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #ecd6c4;
+}
+
+.footer {
+    padding: 2rem;
+    border-top: 0.4px solid #FFF2E7;
+    margin-top: 2.5rem;
+}
+
+.footer-image {
+    height: 2.5rem;
+    display: block;
+    margin: 0 auto;
+}
